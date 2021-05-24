@@ -1,19 +1,23 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
-import Card from '/components/layout/Card'
-import olamundo from './components/basico/olamundo';
+import './app.css'
+import Card from './components/layout/Card';
 import Propriedade from './components/basico/Propriedades';
+import olamundo from './components/basico/olamundo';
 
 class App extends Component {
   render () {
     return(
       <div>
-        <h1> Propriedade </h1>
-        <Propriedade nome="homer"  sobrenome="Jay Simpson" idade={38}/>
 
-        <h1>Aula 01-Fundamentos</h1>
-        <h2> Componente olamundo </h2>
-        <h4>primeiro componente JSX</h4>
+        <Card titulo="Propriedades">
+        <Propriedade nome="Homer"  sobrenome="Jay Simpson" idade={38}/>
+         </Card>
+
+      <Card titulo="Olá Mundo!">
+        <h3>Componente OlaMundo</h3>
+        <h4> Primeiro componente JSX</h4>
+      </Card>
         <olamundo />
         
       </div>

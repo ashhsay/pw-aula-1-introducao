@@ -7,7 +7,7 @@ export default (props) => {
         <div className='Card'>
             <div className='Title'>{props.titulo}</div>
             <div className='Content'>
-                <p>Componente filho</p>
+                {props.children}
             </div>
         </div>
         
