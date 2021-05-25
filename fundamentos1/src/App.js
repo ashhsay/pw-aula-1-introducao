@@ -7,7 +7,7 @@ import FamiliaMembroClone from './Componentes/basico/MembroFamilia';
 import Familia from './Componentes/basico/Familia';
 import Card from './Componentes/layout/Card';
 import Propriedades from './Componentes/basico/Propriedades';
-import OlaMundo from './Componentes/basico/OlaMundo';
+import OlaMundo from './Componentes/basico/Olamundo';
 class App extends Component {
 	render (){
 	return (
@@ -42,7 +42,7 @@ class App extends Component {
 			</Card>
 
 			<Card titulo="Olá Mundo!" cor="#226ce0">
-			<OlaMundo />
+			<Olamundo />
 			</Card>
 
 			</div>
