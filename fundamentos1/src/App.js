@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 import './App.css' 
-import IndiretaPai from './Componentes/basico/IndiretaPai'
-import Estado from './Componentes/basico/Estado'
-import FamiliaClone from './Componentes/basico/FamiliaClone'
-import FamiliaMembroClone from './Componentes/basico/MembroFamilia'
-import Familia from './Componentes/basico/Familia'
-import Card from './Componentes/layout/Card'
-import Propriedades from './Componentes/basico/Propriedades'
-import OlaMundo from './Componentes/basico/Olamundo'
+import IndiretaPai from './Componentes/basico/IndiretaPai';
+import Estado from './Componentes/basico/Estado';
+import FamiliaClone from './Componentes/basico/FamiliaClone';
+import FamiliaMembroClone from './Componentes/basico/MembroFamilia';
+import Familia from './Componentes/basico/Familia';
+import Card from './Componentes/layout/Card';
+import Propriedades from './Componentes/basico/Propriedades';
+import OlaMundo from './Componentes/basico/Olamundo';
+
 class App extends Component {
 	render (){
 	return (
